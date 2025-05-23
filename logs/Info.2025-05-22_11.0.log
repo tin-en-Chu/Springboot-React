@@ -1,0 +1,68 @@
+2025-05-22 11:30:33.118 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-22 11:30:33.148 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-22 11:30:33.168 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-22 11:30:33.178 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-22 11:30:38.662 [main] INFO  c.t.s.SpringBootWorkApplication - Starting SpringBootWorkApplication using Java 21.0.7 with PID 6024 (C:\Users\7119\IdeaProjects\springBootWork\target\classes started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-22 11:30:38.664 [main] INFO  c.t.s.SpringBootWorkApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-22 11:30:39.758 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2025-05-22 11:30:39.777 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2025-05-22 11:30:39.779 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-22 11:30:39.780 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-22 11:30:39.838 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-22 11:30:39.839 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1135 ms
+2025-05-22 11:30:40.089 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-22 11:30:40.286 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-22 11:30:40.287 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-22 11:30:40.664 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-22 11:30:40.708 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2025-05-22 11:30:40.731 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2025-05-22 11:30:40.736 [main] INFO  c.t.s.SpringBootWorkApplication - Started SpringBootWorkApplication in 2.496 seconds (process running for 3.082)
+2025-05-22 11:32:22.904 [http-nio-8099-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-22 11:32:22.904 [http-nio-8099-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-22 11:32:22.904 [http-nio-8099-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-05-22 11:32:23.055 [http-nio-8099-exec-1] INFO  c.t.s.c.SystemCodeResultController - insert obj :EmployeeRequestPost(systemCode=SYS007, systemDesc=通關服務部, status=Y, userCode=U001, password=Pass@123, party=IT, userName=Kyle chu, ban=A1234567, startDate=2023-01-10, email=kyle@tradevan.com.tw, phone=0987654321, fax=#745, countryNum=TWN, airline=AVA)
+2025-05-22 11:34:58.616 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-22 11:34:58.619 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-22 11:34:58.621 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-22 11:34:58.623 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-22 11:35:02.348 [main] INFO  c.t.s.SpringBootWorkApplication - Starting SpringBootWorkApplication using Java 21.0.7 with PID 14860 (C:\Users\7119\IdeaProjects\springBootWork\target\classes started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-22 11:35:02.349 [main] INFO  c.t.s.SpringBootWorkApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-22 11:35:03.068 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2025-05-22 11:35:03.077 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2025-05-22 11:35:03.078 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-22 11:35:03.078 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-22 11:35:03.112 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-22 11:35:03.112 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 724 ms
+2025-05-22 11:35:03.291 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-22 11:35:03.427 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-22 11:35:03.429 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-22 11:35:03.665 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-22 11:35:03.696 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2025-05-22 11:35:03.718 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2025-05-22 11:35:03.722 [main] INFO  c.t.s.SpringBootWorkApplication - Started SpringBootWorkApplication in 1.721 seconds (process running for 2.175)
+2025-05-22 11:35:16.473 [http-nio-8099-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-22 11:35:16.473 [http-nio-8099-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-22 11:35:16.474 [http-nio-8099-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-05-22 11:35:16.553 [http-nio-8099-exec-3] INFO  c.t.s.c.SystemCodeResultController - delete req obj :SystemRequestDelete(systemCode=SYS007)
+2025-05-22 11:35:30.437 [http-nio-8099-exec-5] INFO  c.t.s.c.SystemCodeResultController - insert req obj :EmployeeRequestPost(systemCode=SYS007, systemDesc=通關服務部, status=Y, userCode=U001, password=Pass@123, party=IT, userName=Kyle chu, ban=A1234567, startDate=2023-01-10, email=kyle@tradevan.com.tw, phone=0987654321, fax=#745, countryNum=TWN, airline=AVA)
+2025-05-22 11:35:33.445 [http-nio-8099-exec-4] INFO  c.t.s.c.SystemCodeResultController - delete req obj :SystemRequestDelete(systemCode=SYS007)
+2025-05-22 11:36:25.522 [http-nio-8099-exec-6] INFO  c.t.s.c.SystemCodeResultController - delete req obj :SystemRequestDelete(systemCode=SYS007)
+2025-05-22 11:58:36.953 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-22 11:58:36.956 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-22 11:58:36.956 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-22 11:58:36.956 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-22 11:58:40.871 [main] INFO  c.t.s.SpringBootWorkApplication - Starting SpringBootWorkApplication using Java 21.0.7 with PID 7068 (C:\Users\7119\IdeaProjects\springBootWork\target\classes started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-22 11:58:40.880 [main] INFO  c.t.s.SpringBootWorkApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-22 11:58:41.608 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2025-05-22 11:58:41.614 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2025-05-22 11:58:41.619 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-22 11:58:41.619 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-22 11:58:41.653 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-22 11:58:41.653 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 729 ms
+2025-05-22 11:58:41.823 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-22 11:58:41.965 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-22 11:58:41.965 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-22 11:58:42.218 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-22 11:58:42.259 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2025-05-22 11:58:42.282 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2025-05-22 11:58:42.282 [main] INFO  c.t.s.SpringBootWorkApplication - Started SpringBootWorkApplication in 1.799 seconds (process running for 2.245)

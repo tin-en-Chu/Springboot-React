@@ -1,0 +1,98 @@
+2025-05-22 14:16:31.910 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-22 14:16:31.927 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-22 14:16:31.946 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-22 14:16:31.952 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-22 14:16:37.485 [main] INFO  c.t.s.SpringBootWorkApplication - Starting SpringBootWorkApplication using Java 21.0.7 with PID 10492 (C:\Users\7119\IdeaProjects\springBootWork\target\classes started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-22 14:16:37.487 [main] INFO  c.t.s.SpringBootWorkApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-22 14:16:38.276 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2025-05-22 14:16:38.286 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2025-05-22 14:16:38.287 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-22 14:16:38.287 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-22 14:16:38.326 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-22 14:16:38.326 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 804 ms
+2025-05-22 14:16:38.514 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-22 14:16:38.681 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-22 14:16:38.683 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-22 14:16:38.701 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'employeeService': Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'mapper': Error creating bean with name 'employeeMapper' defined in file [C:\Users\7119\IdeaProjects\springBootWork\target\classes\com\tv\springbootwork\mapper\EmployeeMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionTemplate': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [C:\Users\7119\IdeaProjects\springBootWork\target\classes\schema.sql]: CREATE TABLE DEPARTMENT ( DEPARTMENT_ID VARCHAR(36) PRIMARY KEY NOT NULL, DEPARTMENT_NAME VARCHAR(100) , )
+2025-05-22 14:16:38.701 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-22 14:16:38.702 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-22 14:16:38.704 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-05-22 14:16:38.711 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-22 14:17:03.647 [main] INFO  c.t.s.SpringBootWorkApplication - Starting SpringBootWorkApplication using Java 21.0.7 with PID 25996 (C:\Users\7119\IdeaProjects\springBootWork\target\classes started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-22 14:17:03.648 [main] INFO  c.t.s.SpringBootWorkApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-22 14:17:04.336 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2025-05-22 14:17:04.345 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2025-05-22 14:17:04.346 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-22 14:17:04.346 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-22 14:17:04.382 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-22 14:17:04.382 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 705 ms
+2025-05-22 14:17:04.549 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-22 14:17:04.742 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-22 14:17:04.744 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-22 14:17:04.793 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'employeeService': Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'mapper': Error creating bean with name 'employeeMapper' defined in file [C:\Users\7119\IdeaProjects\springBootWork\target\classes\com\tv\springbootwork\mapper\EmployeeMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionTemplate': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [C:\Users\7119\IdeaProjects\springBootWork\target\classes\schema.sql]: CREATE TABLE DEPARTMENT ( DEPARTMENT_ID VARCHAR(36) PRIMARY KEY, DEPARTMENT_NAME VARCHAR(100) , )
+2025-05-22 14:17:04.793 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-22 14:17:04.795 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-22 14:17:04.798 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-05-22 14:17:04.811 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-22 14:17:33.671 [main] INFO  c.t.s.SpringBootWorkApplication - Starting SpringBootWorkApplication using Java 21.0.7 with PID 22724 (C:\Users\7119\IdeaProjects\springBootWork\target\classes started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-22 14:17:33.673 [main] INFO  c.t.s.SpringBootWorkApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-22 14:17:34.462 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2025-05-22 14:17:34.471 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2025-05-22 14:17:34.473 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-22 14:17:34.473 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-22 14:17:34.516 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-22 14:17:34.516 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 799 ms
+2025-05-22 14:17:34.714 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-22 14:17:34.845 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-22 14:17:34.847 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-22 14:17:34.886 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'employeeController': Unsatisfied dependency expressed through field 'employeeService': Error creating bean with name 'employeeServiceImpl': Unsatisfied dependency expressed through field 'mapper': Error creating bean with name 'employeeMapper' defined in file [C:\Users\7119\IdeaProjects\springBootWork\target\classes\com\tv\springbootwork\mapper\EmployeeMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionTemplate': Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Failed to execute SQL script statement #1 of file [C:\Users\7119\IdeaProjects\springBootWork\target\classes\data.sql]: INSERT INTO DEPARTMENT (DEPARTMENT_ID, DEPARTMENT_NAME, TYPE) VALUES ('D001', '人資部', 'HR'), ('D002', '資訊部', 'IT'), ('D003', '財務部', 'FIN'), ('D004', '營運部', 'OPS')
+2025-05-22 14:17:34.886 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-22 14:17:34.887 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-22 14:17:34.889 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-05-22 14:17:34.897 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-05-22 14:18:10.849 [main] INFO  c.t.s.SpringBootWorkApplication - Starting SpringBootWorkApplication using Java 21.0.7 with PID 3752 (C:\Users\7119\IdeaProjects\springBootWork\target\classes started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-22 14:18:10.850 [main] INFO  c.t.s.SpringBootWorkApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-22 14:18:11.582 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2025-05-22 14:18:11.592 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2025-05-22 14:18:11.593 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-22 14:18:11.594 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-22 14:18:11.629 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-22 14:18:11.629 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 748 ms
+2025-05-22 14:18:11.812 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-22 14:18:11.956 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-22 14:18:11.957 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-22 14:18:12.213 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-22 14:18:12.247 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2025-05-22 14:18:12.272 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2025-05-22 14:18:12.276 [main] INFO  c.t.s.SpringBootWorkApplication - Started SpringBootWorkApplication in 1.771 seconds (process running for 2.194)
+2025-05-22 14:19:56.567 [http-nio-8099-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-22 14:19:56.567 [http-nio-8099-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-22 14:19:56.568 [http-nio-8099-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-05-22 14:21:15.605 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-22 14:21:15.609 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-05-22 14:21:15.611 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-22 14:21:15.612 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-22 14:21:17.852 [main] INFO  c.t.s.SpringBootWorkApplication - Starting SpringBootWorkApplication using Java 21.0.7 with PID 18804 (C:\Users\7119\IdeaProjects\springBootWork\target\classes started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-22 14:21:17.853 [main] INFO  c.t.s.SpringBootWorkApplication - No active profile set, falling back to 1 default profile: "default"
+2025-05-22 14:21:18.561 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8099 (http)
+2025-05-22 14:21:18.569 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8099"]
+2025-05-22 14:21:18.570 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-05-22 14:21:18.570 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-22 14:21:18.609 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-05-22 14:21:18.609 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 726 ms
+2025-05-22 14:21:18.793 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-22 14:21:18.940 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-22 14:21:18.941 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-22 14:21:19.191 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-22 14:21:19.224 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8099"]
+2025-05-22 14:21:19.248 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8099 (http) with context path '/'
+2025-05-22 14:21:19.252 [main] INFO  c.t.s.SpringBootWorkApplication - Started SpringBootWorkApplication in 1.74 seconds (process running for 2.233)
+2025-05-22 14:21:24.654 [http-nio-8099-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-22 14:21:24.654 [http-nio-8099-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-05-22 14:21:24.655 [http-nio-8099-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

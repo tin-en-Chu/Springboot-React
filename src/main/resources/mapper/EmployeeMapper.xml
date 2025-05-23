@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.tv.springbootwork.mapper.EmployeeMapper">
+
+    <resultMap id="employeeResultMap" type="com.tv.springbootwork.model.vo.Employee">
+        <result property="employeeId" column="EMPLOYEE_ID"/>
+        <result property="employeeName" column="EMPLOYEE_NAME"/>
+        <result property="departmentId" column="DEPARTMENT_ID"/>
+        <result property="departmentName" column="DEPARTMENT_NAME"/>
+        <result property="gender" column="GENDER"/>
+        <result property="birth" column="BIRTH"/>
+        <result property="email" column="EMAIL"/>
+        <result property="phone" column="PHONE"/>
+        <result property="startDate" column="START_DATE"/>
+        <result property="status" column="STATUS"/>
+        <result property="modifyBy" column="MODIFY_BY"/>
+        <result property="modifyDate" column="MODIFY_DATE"/>
+    </resultMap>
+
+<!--TEST USED-->
+    <select id="testGet" resultType="java.lang.String" resultMap="employeeResultMap">
+        SELECT
+            *
+        FROM
+            EMPLOYEE
+        WHERE
+            EMPLOYEE_ID = #{employeeId}
+    </select>
+<!--TEST USED-->
+
+<!--INQUIRE    -->
+    <select id="getEmployeeResult" resultType="com.tv.springbootwork.controller.request.EmployeeRequestGet" resultMap="employeeResultMap">
+        SELECT
+            *
+        FROM
+            EMPLOYEE E
+            LEFT JOIN DEPARTMENT D ON E.DEPARTMENT_ID = D.DEPARTMENT_ID
+        WHERE
+            1 = 1
+            <if test="departmentId != null and departmentId != ''">
+                AND E.DEPARTMENT_ID = #{departmentId}
+            </if>
+            <if test="employeeId != null and employeeId != ''">
+                AND E.EMPLOYEE_ID = #{employeeId}
+            </if>
+            <if test="status != null and status != ''">
+                AND E.STATUS = #{status}
+            </if>
+
+
+            <if test="startDate != null and startDate != '' and endDate != null and endDate != ''">
+                AND START_DATE BETWEEN #{startDate} AND #{endDate}
+            </if>
+
+            <if test="startDate != null and startDate != '' and (endDate == null or endDate == '')">
+                AND START_DATE &gt;= #{startDate}
+            </if>
+
+            <if test="endDate != null and endDate != '' and (startDate == null or startDate == '')">
+                AND START_DATE &lt;= #{endDate}
+            </if>
+    </select>
+
+
+<!--INQUIRE    -->
+
+
+<!--DELETE-->
+    <delete id="deleteEmployeeResultByBatch" parameterType="string">
+        DELETE FROM EMPLOYEE
+        WHERE EMPLOYEE_ID = #{employeeId}
+    </delete>
+<!--DELETE-->
+
+
+<!--INSERT-->
+    <insert id="insertEmployeeResult">
+        INSERT INTO EMPLOYEE (
+            EMPLOYEE_ID,
+            EMPLOYEE_NAME,
+            GENDER,
+            BIRTH,
+            EMAIL,
+            PHONE,
+            STATUS,
+            START_DATE,
+            DEPARTMENT_ID,
+            MODIFY_BY,
+            MODIFY_DATE
+        ) VALUES (#{employeeId},
+                  #{employeeName},
+                  #{gender},
+                  #{birth},
+                  #{email},
+                  #{phone},
+                  #{status},
+                  #{startDate},
+                  #{departmentId},
+                  #{modifyBy},
+                  CURRENT_DATE)
+    </insert>
+<!--INSERT-->
+
+
+<!--UPDATE-->
+    <update id="updateEmployeeResult" parameterType="com.tv.springbootwork.controller.request.EmployeeRequestPut">
+        UPDATE EMPLOYEE
+        <set>
+            <if test="employeeName != null">
+                EMPLOYEE_NAME = #{employeeName},
+            </if>
+            <if test="email != null">
+                EMAIL = #{email},
+            </if>
+            <if test="status != null">
+                STATUS = #{status},
+            </if>
+            <if test="departmentId != null">
+                DEPARTMENT_ID = #{departmentId},
+            </if>
+            <if test="phone != null">
+                PHONE = #{phone},
+            </if>
+            <if test="gender != null">
+                GENDER = #{gender},
+            </if>
+            MODIFY_BY = 'ADMIN',
+            MODIFY_DATE = CURRENT_DATE
+        </set>
+        WHERE EMPLOYEE_ID = #{employeeId}
+    </update>
+<!--UPDATE-->
+</mapper>

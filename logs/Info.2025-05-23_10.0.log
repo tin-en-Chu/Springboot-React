@@ -1,0 +1,45 @@
+2025-05-23 10:43:00.609 [main] INFO  c.t.s.UserControllerTest - Starting UserControllerTest using Java 21.0.7 with PID 11456 (started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-23 10:43:00.611 [main] INFO  c.t.s.UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-23 10:43:01.747 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-23 10:43:01.921 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-23 10:43:01.923 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-23 10:43:02.454 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-23 10:43:02.517 [main] INFO  c.t.s.UserControllerTest - Started UserControllerTest in 2.345 seconds (process running for 3.477)
+2025-05-23 10:43:03.669 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-23 10:43:03.672 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-23 10:44:33.540 [main] INFO  c.t.s.UserControllerTest - Starting UserControllerTest using Java 21.0.7 with PID 12560 (started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-23 10:44:33.541 [main] INFO  c.t.s.UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-23 10:44:34.579 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-23 10:44:34.717 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-23 10:44:34.719 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-23 10:44:35.225 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-23 10:44:35.286 [main] INFO  c.t.s.UserControllerTest - Started UserControllerTest in 2.084 seconds (process running for 3.053)
+2025-05-23 10:44:36.233 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-23 10:44:36.235 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-23 10:51:47.496 [main] INFO  c.t.s.UserControllerTest - Starting UserControllerTest using Java 21.0.7 with PID 7828 (started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-23 10:51:47.497 [main] INFO  c.t.s.UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-23 10:51:48.564 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-23 10:51:48.702 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-23 10:51:48.703 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-23 10:51:49.232 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-23 10:51:49.306 [main] INFO  c.t.s.UserControllerTest - Started UserControllerTest in 2.188 seconds (process running for 3.294)
+2025-05-23 10:51:50.296 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-23 10:51:50.298 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-23 10:53:30.712 [main] INFO  c.t.s.UserControllerTest - Starting UserControllerTest using Java 21.0.7 with PID 24616 (started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-23 10:53:30.713 [main] INFO  c.t.s.UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-23 10:53:31.793 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-23 10:53:31.971 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-23 10:53:31.973 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-23 10:53:32.527 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-23 10:53:32.583 [main] INFO  c.t.s.UserControllerTest - Started UserControllerTest in 2.244 seconds (process running for 3.223)
+2025-05-23 10:53:33.638 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-23 10:53:33.640 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-05-23 10:53:47.634 [main] INFO  c.t.s.UserControllerTest - Starting UserControllerTest using Java 21.0.7 with PID 18508 (started by 7119 in C:\Users\7119\IdeaProjects\springBootWork)
+2025-05-23 10:53:47.636 [main] INFO  c.t.s.UserControllerTest - No active profile set, falling back to 1 default profile: "default"
+2025-05-23 10:53:48.848 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-05-23 10:53:48.999 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-23 10:53:49.002 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-05-23 10:53:49.617 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-05-23 10:53:49.685 [main] INFO  c.t.s.UserControllerTest - Started UserControllerTest in 2.521 seconds (process running for 3.697)
+2025-05-23 10:53:50.708 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-05-23 10:53:50.711 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,10 @@
+INSERT INTO EMPLOYEES (first_name, last_name, email,start_date,end_date,role) VALUES
+                                                             ('Lokesh', 'Gupta', 'abc@gmail.com','20240101','20240401','root'),
+                                                             ('Deja', 'Vu', 'xyz@email.com','20240105','20240108','manager'),
+                                                             ('Caption', 'America', 'cap@marvel.com','20240201','20240501','guest');
+
+
+INSERT INTO SYSTEM_CODE_LIST_RESULT (ResultUuid, SystemCode, SystemDesc, Status) VALUES
+                                                             ('111e4567-e89b-12d3-a456-426614174000', 'SYS001', '人資管理系統', 'A'),
+                                                             ('222e4567-e89b-12d3-a456-426614174000', 'SYS002', '會計報表平台', 'A'),
+                                                             ('333e4567-e89b-12d3-a456-426614174000', 'SYS003', '內部資訊中心', 'I');

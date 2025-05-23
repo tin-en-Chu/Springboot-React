@@ -1,0 +1,37 @@
+INSERT INTO SYSTEM_CODE_LIST_RESULT (SYSTEMCODE, SYSTEMDESC, STATUS) VALUES
+                                                                                     ('SYS001', '人資管理系統', 'A'),
+                                                                                     ('SYS002', '會計報表平台', 'A'),
+                                                                                     ('SYS003', '通關服務部', 'I'),
+                                                                                     ('SYS004', '資訊維運部', 'I'),
+                                                                                     ('SYS005', '客戶服務部', 'I'),
+                                                                                     ('SYS006', '軟體部', 'I');
+
+-- 主表 SYS001
+INSERT INTO SYSTEM_CODE_LIST_DETAIL (
+    SYSTEMCODE, USERCODE, PASSWORD, PARTY, USERNAME, BAN,
+    EMAIL, STARTDATE, PHONE, FAX, COUNTRYNUM, AIRLINE, MODIFYBY, MODIFYDATE
+) VALUES
+      ('SYS001','U001', 'Pass@123', 'HR', '陳美玲', 'A1234567', 'mei@example.com',
+       '2023-01-10', '0912123123', '0221234567', 'TWN','AVA' ,'admin', '2023-03-01'),
+      ('SYS002', 'U002', 'Pwd456', 'HR', '林志明', 'B2345678', 'lin@example.com',
+       '2023-02-15', '0923456789', '0222223333', 'TWN', 'AVA','admin', '2023-04-12');
+
+-- 主表 SYS002
+INSERT INTO SYSTEM_CODE_LIST_DETAIL (
+    SYSTEMCODE,USERCODE, PASSWORD, PARTY, USERNAME, BAN,
+    EMAIL, STARTDATE, PHONE, FAX, COUNTRYNUM,AIRLINE ,MODIFYBY, MODIFYDATE
+) VALUES
+      ('SYS003', 'U003', 'Money@888', 'Finance', '李玉珍', 'C3456789', 'yu@example.com',
+       '2023-05-20', '0933111222', '0234567890', 'TWN', 'AVA','finance_mgr', '2023-06-01'),
+      ('SYS004', 'U004', 'Acct1234', 'Finance', '張宏銘', 'D4567890', 'chang@example.com',
+       '2023-06-01', '0988777666', '0220011223', 'TWN', 'AVA','finance_mgr', '2023-06-10');
+
+-- 主表 SYS003
+INSERT INTO SYSTEM_CODE_LIST_DETAIL (
+    SYSTEMCODE, USERCODE, PASSWORD, PARTY, USERNAME, BAN,
+    EMAIL, STARTDATE, PHONE, FAX, COUNTRYNUM,AIRLINE , MODIFYBY, MODIFYDATE
+) VALUES
+      ('SYS005', 'U005', 'IT@999', 'IT', '劉曉明', 'E5678901', 'hsiao@example.com',
+       '2024-01-01', '0966123456', '0212345678', 'TWN', 'AVA','it_admin', '2024-01-15'),
+      ('SYS006', 'U006', 'Code4567', 'IT', '曾子傑', 'F6789012', 'tseng@example.com',
+       '2024-02-10', '0955123456', '0222223333', 'TWN', 'WAVA','it_admin', '2024-02-20');

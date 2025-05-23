@@ -1,0 +1,13 @@
+--主表 SYS001
+INSERT INTO SYSTEM_CODE_LIST_RESULT (ResultUuid, SystemCode, SystemDesc, Status) VALUES
+                                                             ('111e4567-e89b-12d3-a456-426614174000', 'SYS001', '人資管理系統', 'A'),
+                                                             ('222e4567-e89b-12d3-a456-426614174000', 'SYS002', '會計報表平台', 'A'),
+                                                             ('333e4567-e89b-12d3-a456-426614174000', 'SYS003', '內部資訊中心', 'I');
+INSERT INTO RESULT (
+    ResultUuid, UserCode, Password, Party, UserName, Ban,
+    Email, StartDate, Phone, Fax, CountryNum, ModifyBy, ModifyDate
+) VALUES
+      ('111e4567-e89b-12d3-a456-426614174000', 'U001', 'Pass@123', 'HR', '陳美玲', 'A1234567', 'mei@example.com',
+       TO_DATE('2023-01-10', 'YYYY-MM-DD'), '0912123123', '0221234567', 'TWN', 'admin', TO_DATE('2023-03-01', 'YYYY-MM-DD')),
+      ('111e4567-e89b-12d3-a456-426614174000', 'U002', 'Pwd456', 'HR', '林志明', 'B2345678', 'lin@example.com',
+       TO_DATE('2023-02-15', 'YYYY-MM-DD'), '0923456789', '0222223333', 'TWN', 'admin', TO_DATE('2023-04-12', 'YYYY-MM-DD'));
